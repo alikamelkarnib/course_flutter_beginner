@@ -18,14 +18,9 @@ class Home extends StatelessWidget {
 
       ),
       body:Center(
-          child: Text('Hello ali karnib',
-            style: TextStyle(
-                fontSize: 40.0,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 2.0,
-                color: Colors.blueGrey,
-                fontFamily : 'RubikMoonrocks'),
-
+          child: Image(
+          // image:NetworkImage('https://www.w3schools.com/css/img_forest.jpg'),
+            image:AssetImage('assets/2.png'),
           )),
       floatingActionButton: FloatingActionButton(
         onPressed: (){},
