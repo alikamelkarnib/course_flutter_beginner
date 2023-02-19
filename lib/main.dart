@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
       body:Center(
           child: Image(
           // image:NetworkImage('https://www.w3schools.com/css/img_forest.jpg'),
-       
+       //     image:AssetImage('assets/2.png'),
             image:AssetImage('assets/1.png'),
           )),
       floatingActionButton: FloatingActionButton(
