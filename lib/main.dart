@@ -21,12 +21,15 @@ class Home extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children:<Widget> [
-          Row(
-            children:<Widget> [
-              Text('one'),
-             Text('two'),
-              Text('three'),
-            ],
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Row(
+              children:<Widget> [
+                Text('one'),
+               Text('two'),
+                Text('three'),
+              ],
+            ),
           ),
           Container(
             padding: EdgeInsets.all(20),
